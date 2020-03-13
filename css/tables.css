@@ -1,0 +1,45 @@
+/* styles for tables */
+
+table{
+    border-collapse: collapse;
+    border: 1px solid #000;
+    width: 80%;
+    margin: auto;
+}
+
+tr{
+   vertical-align: top; 
+}
+th{
+    background-color: lightgray;
+}
+tr:nth-child(even){
+    background-color: lightgray;
+}
+tr:nth-child(odd){
+    background-color: honeydew;
+}
+
+td, th{
+    border: 1px solid #000;
+    padding: .5em;
+}
+
+col1{
+    white-space: nowrap;
+}
+
+/* Specific styling to AIA tables */
+
+table.client td:first-child{
+    white-space: nowrap;
+}
+
+table.aia td{
+    vertical-align: baseline;
+    width: 25%;
+}
+
+li{
+   list-style-type: square; 
+}
